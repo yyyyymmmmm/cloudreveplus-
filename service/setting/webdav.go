@@ -1,12 +1,12 @@
 package setting
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem"
+	"github.com/yyyyymmmmm/Test/pkg/hashid"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // WebDAVListService WebDAV 列表服务

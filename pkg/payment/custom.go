@@ -4,15 +4,16 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/gofrs/uuid"
-	"github.com/qiniu/go-sdk/v7/sms/bytes"
 	"net/http"
 	"net/url"
+
+	"github.com/gofrs/uuid"
+	"github.com/qiniu/go-sdk/v7/sms/bytes"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/auth"
+	"github.com/yyyyymmmmm/Test/pkg/cache"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // Custom payment client

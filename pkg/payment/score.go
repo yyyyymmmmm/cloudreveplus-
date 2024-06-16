@@ -1,8 +1,8 @@
 package payment
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // ScorePayment 积分支付处理

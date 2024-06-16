@@ -6,14 +6,14 @@ import (
 	"path"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 	"github.com/gofrs/uuid"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/cache"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 /* ================

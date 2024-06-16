@@ -1,11 +1,12 @@
 package middleware
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/gin-gonic/gin"
 	"strconv"
+
+	"github.com/gin-gonic/gin"
+	"github.com/yyyyymmmmm/Test/pkg/auth"
+	"github.com/yyyyymmmmm/Test/pkg/cluster"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // MasterMetadata 解析主机节点发来请求的包含主机节点信息的元数据

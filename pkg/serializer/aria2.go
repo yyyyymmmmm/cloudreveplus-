@@ -4,8 +4,8 @@ import (
 	"path"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/rpc"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/aria2/rpc"
 )
 
 // DownloadListResponse 下载列表响应条目

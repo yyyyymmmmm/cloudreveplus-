@@ -18,10 +18,10 @@ import (
 	"sync"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 type Handler struct {

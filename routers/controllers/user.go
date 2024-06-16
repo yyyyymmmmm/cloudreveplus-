@@ -4,16 +4,16 @@ import (
 	"encoding/json"
 	"fmt"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/authn"
-	"github.com/cloudreve/Cloudreve/v3/pkg/qq"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/thumb"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/cloudreve/Cloudreve/v3/service/user"
 	"github.com/duo-labs/webauthn/webauthn"
 	"github.com/gin-gonic/gin"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/authn"
+	"github.com/yyyyymmmmm/Test/pkg/qq"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/thumb"
+	"github.com/yyyyymmmmm/Test/pkg/util"
+	"github.com/yyyyymmmmm/Test/service/user"
 )
 
 // StartLoginAuthn 开始注册WebAuthn登录

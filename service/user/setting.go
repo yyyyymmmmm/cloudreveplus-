@@ -10,15 +10,15 @@ import (
 	"strings"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
-	"github.com/cloudreve/Cloudreve/v3/pkg/qq"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 	"github.com/pquerna/otp/totp"
 	"github.com/samber/lo"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/cluster"
+	"github.com/yyyyymmmmm/Test/pkg/hashid"
+	"github.com/yyyyymmmmm/Test/pkg/qq"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // SettingService 通用设置服务

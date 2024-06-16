@@ -5,12 +5,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/gofrs/uuid"
 	"net/url"
 	"strings"
+
+	"github.com/gofrs/uuid"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // LoginPage 登陆页面描述

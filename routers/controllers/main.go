@@ -3,10 +3,10 @@ package controllers
 import (
 	"encoding/json"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // ParamErrorMsg 根据Validator返回的错误信息给出错误提示

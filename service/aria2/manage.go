@@ -1,11 +1,11 @@
 package aria2
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/common"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/gin-gonic/gin"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/aria2/common"
+	"github.com/yyyyymmmmm/Test/pkg/cluster"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // SelectFileService 选择要下载的文件服务

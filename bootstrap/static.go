@@ -10,8 +10,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/yyyyymmmmm/Test/pkg/conf"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 
 	"github.com/gin-contrib/static"
 )

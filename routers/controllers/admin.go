@@ -3,17 +3,17 @@ package controllers
 import (
 	// "io"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/email"
-	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/aria2"
+	"github.com/yyyyymmmmm/Test/pkg/cluster"
+	"github.com/yyyyymmmmm/Test/pkg/email"
+	"github.com/yyyyymmmmm/Test/pkg/mq"
 
-	// "github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
-	"github.com/cloudreve/Cloudreve/v3/service/admin"
+	// "github.com/yyyyymmmmm/Test/pkg/request"
 	"github.com/gin-gonic/gin"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/wopi"
+	"github.com/yyyyymmmmm/Test/service/admin"
 )
 
 // AdminSummary 获取管理站点概况

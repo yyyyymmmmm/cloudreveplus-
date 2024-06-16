@@ -14,15 +14,15 @@ import (
 	"time"
 
 	"github.com/HFO4/aliyun-oss-go-sdk/oss"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/chunk"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/chunk/backoff"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/response"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/chunk"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/chunk/backoff"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/response"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // UploadPolicy 阿里云OSS上传策略

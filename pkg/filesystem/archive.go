@@ -12,11 +12,11 @@ import (
 	"sync"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 	"github.com/mholt/archiver/v4"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 /* ===============

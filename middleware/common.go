@@ -2,12 +2,13 @@ package middleware
 
 import (
 	"fmt"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/gin-gonic/gin"
 	"net/http"
+
+	"github.com/gin-gonic/gin"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/auth"
+	"github.com/yyyyymmmmm/Test/pkg/hashid"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // HashID 将给定对象的HashID转换为真实ID

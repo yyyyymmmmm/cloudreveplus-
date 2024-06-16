@@ -1,10 +1,11 @@
 package serializer
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"time"
+
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/hashid"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 type quota struct {

@@ -15,8 +15,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/cache"
+	"github.com/yyyyymmmmm/Test/pkg/request"
 )
 
 // GetPublicKey 从回调请求或缓存中获取OSS的回调签名公钥

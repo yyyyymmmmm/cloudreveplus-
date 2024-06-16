@@ -16,15 +16,15 @@ import (
 	"strings"
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/response"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/google/go-querystring/query"
 	cossdk "github.com/tencentyun/cos-go-sdk-v5"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/response"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // UploadPolicy 腾讯云COS上传策略

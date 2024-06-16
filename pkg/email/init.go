@@ -3,8 +3,8 @@ package email
 import (
 	"sync"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // Client 默认的邮件发送客户端

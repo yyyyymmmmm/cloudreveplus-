@@ -4,7 +4,6 @@ import (
 	"context"
 	"errors"
 	"fmt"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver"
 	"io"
 	"net/http"
 	"net/url"
@@ -13,20 +12,22 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/chunk"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/chunk/backoff"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver"
+
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/chunk"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/chunk/backoff"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/s3/s3manager"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/response"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/response"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // Driver 适配器模板

@@ -2,9 +2,10 @@ package thumbmock
 
 import (
 	"context"
-	"github.com/cloudreve/Cloudreve/v3/pkg/thumb"
-	"github.com/stretchr/testify/mock"
 	"io"
+
+	"github.com/stretchr/testify/mock"
+	"github.com/yyyyymmmmm/Test/pkg/thumb"
 )
 
 type GeneratorMock struct {

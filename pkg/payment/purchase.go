@@ -2,11 +2,12 @@ package payment
 
 import (
 	"encoding/json"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"strconv"
 	"time"
+
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/cache"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // GivePack 创建容量包

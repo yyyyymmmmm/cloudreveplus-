@@ -1,10 +1,10 @@
 package model
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gofrs/uuid"
+	"github.com/yyyyymmmmm/Test/pkg/cache"
+	"github.com/yyyyymmmmm/Test/pkg/conf"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 var defaultSettings = []Setting{

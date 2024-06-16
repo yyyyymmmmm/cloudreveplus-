@@ -3,7 +3,7 @@ package serializer
 import (
 	"time"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
+	model "github.com/yyyyymmmmm/Test/models"
 )
 
 // SiteConfig 站点全局设置序列

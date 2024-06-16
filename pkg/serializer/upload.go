@@ -2,8 +2,9 @@ package serializer
 
 import (
 	"encoding/gob"
-	model "github.com/cloudreve/Cloudreve/v3/models"
 	"time"
+
+	model "github.com/yyyyymmmmm/Test/models"
 )
 
 // UploadPolicy slave模式下传递的上传策略

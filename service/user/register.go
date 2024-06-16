@@ -4,13 +4,13 @@ import (
 	"net/url"
 	"strings"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
-	"github.com/cloudreve/Cloudreve/v3/pkg/email"
-	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/auth"
+	"github.com/yyyyymmmmm/Test/pkg/email"
+	"github.com/yyyyymmmmm/Test/pkg/hashid"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // UserRegisterService 管理用户注册的服务

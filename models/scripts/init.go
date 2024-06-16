@@ -1,6 +1,6 @@
 package scripts
 
-import "github.com/cloudreve/Cloudreve/v3/models/scripts/invoker"
+import "github.com/yyyyymmmmm/Test/models/scripts/invoker"
 
 func Init() {
 	invoker.Register("ResetAdminPassword", ResetAdminPassword(0))

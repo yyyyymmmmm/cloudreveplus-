@@ -1,8 +1,8 @@
 package authn
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
 	"github.com/duo-labs/webauthn/webauthn"
+	model "github.com/yyyyymmmmm/Test/models"
 )
 
 // NewAuthnInstance 新建Authn实例

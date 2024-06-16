@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/url"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	alipay "github.com/smartwalle/alipay/v3"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // Alipay 支付宝当面付支付处理

@@ -3,10 +3,10 @@ package controllers
 import (
 	"context"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/common"
-	"github.com/cloudreve/Cloudreve/v3/service/aria2"
-	"github.com/cloudreve/Cloudreve/v3/service/explorer"
 	"github.com/gin-gonic/gin"
+	"github.com/yyyyymmmmm/Test/pkg/aria2/common"
+	"github.com/yyyyymmmmm/Test/service/aria2"
+	"github.com/yyyyymmmmm/Test/service/explorer"
 )
 
 // AddAria2URL 添加离线下载URL

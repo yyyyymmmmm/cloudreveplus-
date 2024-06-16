@@ -3,13 +3,13 @@ package controllers
 import (
 	"context"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/service/admin"
-	"github.com/cloudreve/Cloudreve/v3/service/aria2"
-	"github.com/cloudreve/Cloudreve/v3/service/explorer"
-	"github.com/cloudreve/Cloudreve/v3/service/node"
 	"github.com/gin-gonic/gin"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/service/admin"
+	"github.com/yyyyymmmmm/Test/service/aria2"
+	"github.com/yyyyymmmmm/Test/service/explorer"
+	"github.com/yyyyymmmmm/Test/service/node"
 )
 
 // SlaveUpload 从机文件上传

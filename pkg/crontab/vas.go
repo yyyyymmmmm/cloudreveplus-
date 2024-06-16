@@ -1,9 +1,9 @@
 package crontab
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/email"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/email"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 func notifyExpiredVAS() {

@@ -1,11 +1,11 @@
 package controllermock
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/common"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
-	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/stretchr/testify/mock"
+	"github.com/yyyyymmmmm/Test/pkg/aria2/common"
+	"github.com/yyyyymmmmm/Test/pkg/cluster"
+	"github.com/yyyyymmmmm/Test/pkg/mq"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 type SlaveControllerMock struct {

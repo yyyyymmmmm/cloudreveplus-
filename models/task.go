@@ -1,8 +1,8 @@
 package model
 
 import (
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/jinzhu/gorm"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // Task 任务模型

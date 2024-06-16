@@ -1,13 +1,13 @@
 package controllers
 
 import (
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
 	"github.com/gin-gonic/gin"
 	"github.com/mojocn/base64Captcha"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/conf"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
+	"github.com/yyyyymmmmm/Test/pkg/wopi"
 )
 
 // SiteConfig 获取站点全局配置

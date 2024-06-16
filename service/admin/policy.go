@@ -13,21 +13,21 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/googledrive"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/googledrive"
 
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/cos"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/onedrive"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/oss"
-	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/s3"
-	"github.com/cloudreve/Cloudreve/v3/pkg/request"
-	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
 	cossdk "github.com/tencentyun/cos-go-sdk-v5"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/auth"
+	"github.com/yyyyymmmmm/Test/pkg/cache"
+	"github.com/yyyyymmmmm/Test/pkg/conf"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/cos"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/onedrive"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/oss"
+	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/s3"
+	"github.com/yyyyymmmmm/Test/pkg/request"
+	"github.com/yyyyymmmmm/Test/pkg/serializer"
+	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // PathTestService 本地路径测试服务

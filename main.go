@@ -13,12 +13,12 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/cloudreve/Cloudreve/v3/bootstrap"
-	model "github.com/cloudreve/Cloudreve/v3/models"
-	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
-	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
-	"github.com/cloudreve/Cloudreve/v3/pkg/util"
-	"github.com/cloudreve/Cloudreve/v3/routers"
+	"github.com/yyyyymmmmm/Test/bootstrap"
+	model "github.com/yyyyymmmmm/Test/models"
+	"github.com/yyyyymmmmm/Test/pkg/cache"
+	"github.com/yyyyymmmmm/Test/pkg/conf"
+	"github.com/yyyyymmmmm/Test/pkg/util"
+	"github.com/yyyyymmmmm/Test/routers"
 )
 
 var (
