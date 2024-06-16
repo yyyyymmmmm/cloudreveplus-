@@ -1,0 +1,121 @@
+env:
+  - CI=false
+  - GENERATE_SOURCEMAP=false
+before:
+  hooks:
+    - go mod tidy
+    - sh -c "cd assets && rm -rf build && yarn install --network-timeout 1000000 && yarn run build && cd ../ && zip -r - assets/build >assets.zip"
+builds:
+  -
+    env:
+      - CGO_ENABLED=0
+
+    binary: cloudreve
+
+    ldflags:
+      - -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.BackendVersion={{.Tag}}' -X 'github.com/cloudreve/Cloudreve/v3/pkg/conf.LastCommit={{.ShortCommit}}'
+
+    goos:
+      - linux
+      - windows
+      - darwin
+
+    goarch:
+      - amd64
+      - arm
+      - arm64
+
+    goarm:
+      - 5
+      - 6
+      - 7
+
+    ignore:
+      - goos: windows
+        goarm: 5
+      - goos: windows
+        goarm: 6
+      - goos: windows
+        goarm: 7
+
+archives:
+  - format: tar.gz
+    # this name template makes the OS and Arch compatible with the results of uname.
+    name_template: >-
+      cloudreve_{{.Tag}}_{{- .Os }}_{{ .Arch }}
+      {{- if .Arm }}v{{ .Arm }}{{ end }}
+    # use zip for windows archives
+    format_overrides:
+    - goos: windows
+      format: zip
+checksum:
+  name_template: 'checksums.txt'
+snapshot:
+  name_template: "{{ incpatch .Version }}-next"
+changelog:
+  sort: asc
+  filters:
+    exclude:
+      - '^docs:'
+      - '^test:'
+
+release:
+  draft: true
+  prerelease: auto
+  target_commitish: '{{ .Commit }}'
+  name_template: "{{.Version}}"
+
+dockers:
+  -
+    dockerfile: Dockerfile
+    use: buildx
+    build_flag_templates:
+      - "--platform=linux/amd64"
+    goos: linux
+    goarch: amd64
+    goamd64: v1
+    image_templates:
+      - "cloudreve/cloudreve:{{ .Tag }}-amd64"
+  -
+    dockerfile: Dockerfile
+    use: buildx
+    build_flag_templates:
+      - "--platform=linux/arm64"
+    goos: linux
+    goarch: arm64
+    image_templates:
+      - "cloudreve/cloudreve:{{ .Tag }}-arm64"
+  -
+    dockerfile: Dockerfile
+    use: buildx
+    build_flag_templates:
+      - "--platform=linux/arm/v6"
+    goos: linux
+    goarch: arm
+    goarm: '6'
+    image_templates:
+      - "cloudreve/cloudreve:{{ .Tag }}-armv6"
+  -
+    dockerfile: Dockerfile
+    use: buildx
+    build_flag_templates:
+      - "--platform=linux/arm/v7"
+    goos: linux
+    goarch: arm
+    goarm: '7'
+    image_templates:
+      - "cloudreve/cloudreve:{{ .Tag }}-armv7"
+
+docker_manifests:
+  - name_template: "cloudreve/cloudreve:latest"
+    image_templates:
+      - "cloudreve/cloudreve:{{ .Tag }}-amd64"
+      - "cloudreve/cloudreve:{{ .Tag }}-arm64"
+      - "cloudreve/cloudreve:{{ .Tag }}-armv6"
+      - "cloudreve/cloudreve:{{ .Tag }}-armv7"
+  - name_template: "cloudreve/cloudreve:{{ .Tag }}"
+    image_templates:
+      - "cloudreve/cloudreve:{{ .Tag }}-amd64"
+      - "cloudreve/cloudreve:{{ .Tag }}-arm64"
+      - "cloudreve/cloudreve:{{ .Tag }}-armv6"
+      - "cloudreve/cloudreve:{{ .Tag }}-armv7"
