@@ -288,54 +288,7 @@ export default function FileTag() {
                             <ListItemText />
                         </ListItem>
                         {[
-                            {
-                                key: t("navbar.videos"),
-                                id: "video",
-                                icon: (
-                                    <VideoIcon
-                                        className={[
-                                            classes.iconFix,
-                                            classes.iconVideo,
-                                        ]}
-                                    />
-                                ),
-                            },
-                            {
-                                key: t("navbar.photos"),
-                                id: "image",
-                                icon: (
-                                    <ImageIcon
-                                        className={[
-                                            classes.iconFix,
-                                            classes.iconImg,
-                                        ]}
-                                    />
-                                ),
-                            },
-                            {
-                                key: t("navbar.music"),
-                                id: "audio",
-                                icon: (
-                                    <MusicIcon
-                                        className={[
-                                            classes.iconFix,
-                                            classes.iconAudio,
-                                        ]}
-                                    />
-                                ),
-                            },
-                            {
-                                key: t("navbar.documents"),
-                                id: "doc",
-                                icon: (
-                                    <DocIcon
-                                        className={[
-                                            classes.iconFix,
-                                            classes.iconDoc,
-                                        ]}
-                                    />
-                                ),
-                            },
+                            
                         ].map((v) => (
                             <ListItem
                                 button

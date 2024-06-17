@@ -43,10 +43,6 @@
     "connect": "Connect & Mount",
     "taskQueue": "Task Queue",
     "setting": "Settings",
-    "videos": "Videos",
-    "photos": "Photos",
-    "music": "Music",
-    "documents": "Documents",
     "addATag": "Add a tag...",
     "addTagDialog": {
       "selectFolder": "Select a Folder",

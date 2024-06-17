@@ -347,7 +347,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://cloudreve.org")
+                                    window.open("https://didichopu.xyz")
                                 }
                             >
                                 <ListItemIcon>
@@ -362,7 +362,7 @@ export default function Index() {
                                 button
                                 onClick={() =>
                                     window.open(
-                                        "https://github.com/cloudreve/cloudreve"
+                                        "https://github.com/yyyyymmmmm/cloudreveplus-"
                                     )
                                 }
                             >
@@ -423,7 +423,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://docs.cloudreve.org/use/pro/jie-shao")
+                                    window.open("https://png.fenfa888.xyz")
                                 }
                             >
                                 <ListItemIcon style={{ color: "#ff789d" }}>

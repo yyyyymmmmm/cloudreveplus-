@@ -14,8 +14,8 @@
     "50009": "跨域策略添加失败"
   },
   "nav": {
-    "summary": "面板首页",
-    "settings": "参数设置",
+    "summary": "首页",
+    "settings": "设置",
     "basicSetting": "站点信息",
     "publicAccess": "注册与登录",
     "email": "邮件",
@@ -29,11 +29,11 @@
     "users": "用户",
     "files": "文件",
     "shares": "分享",
-    "tasks": "持久任务",
+    "tasks": "任务",
     "remoteDownload": "离线下载",
     "generalTasks": "常规任务",
     "title": "仪表盘",
-    "dashboard": "Cloudreve 仪表盘"
+    "dashboard": "admin管理终端"
   },
   "summary": {
     "newsletterError": "Cloudreve 公告加载失败",
@@ -49,14 +49,14 @@
     "totalFiles": "文件总数",
     "publicShares": "公开分享总数",
     "privateShares": "私密分享总数",
-    "homepage": "官方网站",
+    "homepage": "导航小页面",
     "documents": "使用文档",
     "github": "Github 仓库",
     "forum": "讨论社区",
     "forumLink": "https://forum.cloudreve.org",
     "telegramGroup": "Telegram 群组",
     "telegramGroupLink": "https://t.me/cloudreve_official",
-    "buyPro": "捐助开发者",
+    "buyPro": "在线图床",
     "publishedAt": "发表于 <0></0>",
     "newsTag": "notice"
   },

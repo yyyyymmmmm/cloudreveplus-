@@ -43,10 +43,6 @@
     "connect": "連接",
     "taskQueue": "任務列",
     "setting": "個人設定",
-    "videos": "影片",
-    "photos": "圖片",
-    "music": "音樂",
-    "documents": "文件",
     "addATag": "新增標籤...",
     "addTagDialog": {
       "selectFolder": "選擇資料夾",
