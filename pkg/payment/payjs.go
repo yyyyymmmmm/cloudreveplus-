@@ -1,9 +1,9 @@
 package payment
 
 import (
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/qingwg/payjs"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // PayJSClient PayJS支付处理

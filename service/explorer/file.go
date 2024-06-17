@@ -12,14 +12,14 @@ import (
 	"strconv"
 	"strings"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
-	"github.com/yyyyymmmmm/Test/pkg/util"
-	"github.com/yyyyymmmmm/Test/pkg/wopi"
 )
 
 // SingleFileService 对单文件进行操作的五福，path为文件完整路径

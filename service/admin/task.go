@@ -3,10 +3,10 @@ package admin
 import (
 	"strings"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/cloudreve/Cloudreve/v3/pkg/task"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
-	"github.com/yyyyymmmmm/Test/pkg/task"
 )
 
 // TaskBatchService 任务批量操作服务

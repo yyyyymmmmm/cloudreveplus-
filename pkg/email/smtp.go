@@ -3,9 +3,9 @@ package email
 import (
 	"time"
 
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/go-mail/mail"
 	"github.com/google/uuid"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // SMTP SMTP协议发送邮件

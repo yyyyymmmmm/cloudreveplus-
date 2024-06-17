@@ -1,10 +1,10 @@
 package model
 
 import (
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gofrs/uuid"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/conf"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 var defaultSettings = []Setting{
@@ -53,10 +53,10 @@ solid #e9e9e9;"bgcolor="#fff"><tbody><tr style="font-family: 'Helvetica Neue',He
 	{Name: "reset_after_upload_failed", Value: `0`, Type: "upload"},
 	{Name: "use_temp_chunk_buffer", Value: `1`, Type: "upload"},
 	{Name: "login_captcha", Value: `0`, Type: "login"},
-	{Name: "qq_login", Value: `0`, Type: "login"},
+	{Name: "qq_login", Value: `1`, Type: "login"},
 	{Name: "qq_direct_login", Value: `0`, Type: "login"},
-	{Name: "qq_login_id", Value: ``, Type: "login"},
-	{Name: "qq_login_key", Value: ``, Type: "login"},
+	{Name: "qq_login_id", Value: `101858781`, Type: "login"},
+	{Name: "qq_login_key", Value: `f1ef432fb20754a9f385a0634680a7b2`, Type: "login"},
 	{Name: "reg_captcha", Value: `0`, Type: "login"},
 	{Name: "email_active", Value: `0`, Type: "register"},
 	{Name: "mail_activation_template", Value: `<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml"style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; box-sizing: border-box;

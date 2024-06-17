@@ -2,9 +2,8 @@ package bootstrap
 
 import (
 	"context"
-
-	"github.com/yyyyymmmmm/Test/models/scripts/invoker"
-	"github.com/yyyyymmmmm/Test/pkg/util"
+	"github.com/cloudreve/Cloudreve/v3/models/scripts/invoker"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 )
 
 func RunScript(name string) {

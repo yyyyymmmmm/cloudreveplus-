@@ -2,9 +2,8 @@ package scripts
 
 import (
 	"context"
-
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/util"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 )
 
 type UserStorageCalibration int

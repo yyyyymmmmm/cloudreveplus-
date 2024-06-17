@@ -12,9 +12,9 @@ import (
 	"github.com/gofrs/uuid"
 	"github.com/samber/lo"
 
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/jinzhu/gorm"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // Policy 存储策略

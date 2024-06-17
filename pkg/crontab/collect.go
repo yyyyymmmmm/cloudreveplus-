@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
-	"github.com/yyyyymmmmm/Test/pkg/util"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 )
 
 func garbageCollect() {

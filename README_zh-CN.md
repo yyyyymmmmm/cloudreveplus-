@@ -27,7 +27,7 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://didichou.xyz">导航小页面</a> •
+  <a href="https://cloudreve.org">主页</a> •
   <a href="https://demo.cloudreve.org">演示站</a> •
   <a href="https://forum.cloudreve.org/">讨论社区</a> •
   <a href="https://docs.cloudreve.org/">文档</a> •

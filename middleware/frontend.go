@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/cloudreve/Cloudreve/v3/bootstrap"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
-	"github.com/yyyyymmmmm/Test/bootstrap"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // FrontendFileHandler 前端静态文件处理

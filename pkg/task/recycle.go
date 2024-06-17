@@ -3,9 +3,9 @@ package task
 import (
 	"encoding/json"
 
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/cluster"
-	"github.com/yyyyymmmmm/Test/pkg/util"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 )
 
 // RecycleTask 文件回收任务

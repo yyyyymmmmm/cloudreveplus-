@@ -1,15 +1,14 @@
 package controllers
 
 import (
+	model "github.com/cloudreve/Cloudreve/v3/models"
 	"path"
 	"strconv"
 
-	model "github.com/yyyyymmmmm/Test/models"
-
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	"github.com/cloudreve/Cloudreve/v3/service/callback"
 	"github.com/gin-gonic/gin"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
-	"github.com/yyyyymmmmm/Test/pkg/util"
-	"github.com/yyyyymmmmm/Test/service/callback"
 )
 
 // RemoteCallback 远程上传回调

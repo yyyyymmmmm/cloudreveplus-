@@ -3,15 +3,15 @@ package node
 import (
 	"encoding/gob"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
+	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/googledrive"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/onedrive"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/oauth"
+	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/cluster"
-	"github.com/yyyyymmmmm/Test/pkg/conf"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/googledrive"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/onedrive"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/oauth"
-	"github.com/yyyyymmmmm/Test/pkg/mq"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 type SlaveNotificationService struct {

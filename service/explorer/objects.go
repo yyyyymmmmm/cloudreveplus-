@@ -9,15 +9,15 @@ import (
 	"strings"
 	"time"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
+	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/cloudreve/Cloudreve/v3/pkg/task"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/auth"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
-	"github.com/yyyyymmmmm/Test/pkg/hashid"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
-	"github.com/yyyyymmmmm/Test/pkg/task"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // ItemMoveService 处理多文件/目录移动

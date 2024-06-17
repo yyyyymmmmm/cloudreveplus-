@@ -1,10 +1,9 @@
 package requestmock
 
 import (
-	"io"
-
+	"github.com/cloudreve/Cloudreve/v3/pkg/request"
 	"github.com/stretchr/testify/mock"
-	"github.com/yyyyymmmmm/Test/pkg/request"
+	"io"
 )
 
 type RequestMock struct {

@@ -3,10 +3,9 @@ package task
 import (
 	"context"
 	"encoding/json"
-
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
-	"github.com/yyyyymmmmm/Test/pkg/util"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 )
 
 // RelocateTask 存储策略迁移任务

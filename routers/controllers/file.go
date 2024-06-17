@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"net/http"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
+	"github.com/cloudreve/Cloudreve/v3/pkg/request"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/cloudreve/Cloudreve/v3/service/explorer"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
-	"github.com/yyyyymmmmm/Test/pkg/request"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
-	"github.com/yyyyymmmmm/Test/service/explorer"
 )
 
 func DownloadArchive(c *gin.Context) {

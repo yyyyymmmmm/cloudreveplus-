@@ -1,10 +1,9 @@
 package admin
 
 import (
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"strconv"
-
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // AddGroupService 用户组添加服务

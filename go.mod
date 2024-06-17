@@ -5,6 +5,7 @@ go 1.18
 require (
 	github.com/HFO4/aliyun-oss-go-sdk v2.2.3+incompatible
 	github.com/aws/aws-sdk-go v1.31.5
+	github.com/cloudflare/cfssl v1.6.1
 	github.com/duo-labs/webauthn v0.0.0-20220330035159-03696f3d4499
 	github.com/fatih/color v1.16.0
 	github.com/gin-contrib/cors v1.3.0
@@ -57,7 +58,6 @@ require (
 	github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc // indirect
 	github.com/census-instrumentation/opencensus-proto v0.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.1.1 // indirect
-	github.com/cloudflare/cfssl v1.6.1 // indirect
 	github.com/cncf/udpa/go v0.0.0-20210322005330-6414d713912e // indirect
 	github.com/coreos/go-semver v0.3.0 // indirect
 	github.com/coreos/go-systemd/v22 v22.3.2 // indirect

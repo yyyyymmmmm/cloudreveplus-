@@ -2,10 +2,9 @@ package model
 
 import (
 	"fmt"
-	"net/url"
-
+	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
 	"github.com/jinzhu/gorm"
-	"github.com/yyyyymmmmm/Test/pkg/hashid"
+	"net/url"
 )
 
 // SourceLink represent a shared file source link

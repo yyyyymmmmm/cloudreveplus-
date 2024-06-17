@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"time"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
 	"github.com/duo-labs/webauthn/webauthn"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/hashid"
 )
 
 // CheckLogin 检查登录

@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/gofrs/uuid"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 
 	//"github.com/nfnt/resize"
 	"golang.org/x/image/draw"

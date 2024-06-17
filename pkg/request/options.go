@@ -2,12 +2,11 @@ package request
 
 import (
 	"context"
+	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
 	"net/http"
 	"net/url"
 	"strings"
 	"time"
-
-	"github.com/yyyyymmmmm/Test/pkg/auth"
 )
 
 // Option 发送请求的额外设置

@@ -4,14 +4,14 @@ import (
 	"encoding/gob"
 	"time"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
+	"github.com/cloudreve/Cloudreve/v3/pkg/email"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/cloudreve/Cloudreve/v3/pkg/thumb"
+	"github.com/cloudreve/Cloudreve/v3/pkg/vol"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/conf"
-	"github.com/yyyyymmmmm/Test/pkg/email"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
-	"github.com/yyyyymmmmm/Test/pkg/thumb"
-	"github.com/yyyyymmmmm/Test/pkg/vol"
 )
 
 func init() {
@@ -87,7 +87,7 @@ func (service *BatchSettingChangeService) Change() serializer.Response {
 func (service *NoParamService) Summary() serializer.Response {
 	// 获取版本信息
 	versions := map[string]string{
-		"backend": "3.8.4",
+		"backend": conf.BackendVersion,
 		"db":      conf.RequiredDBVersion,
 		"commit":  conf.LastCommit,
 		"is_plus": conf.IsPlus,

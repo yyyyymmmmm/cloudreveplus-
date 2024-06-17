@@ -347,7 +347,7 @@ export default function Index() {
                             <ListItem
                                 button
                                 onClick={() =>
-                                    window.open("https://didichou.xyz")
+                                    window.open("https://cloudreve.org")
                                 }
                             >
                                 <ListItemIcon>

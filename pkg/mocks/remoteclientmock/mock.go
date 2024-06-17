@@ -3,9 +3,9 @@ package remoteclientmock
 import (
 	"context"
 
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/stretchr/testify/mock"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 type RemoteClientMock struct {

@@ -2,12 +2,11 @@ package mq
 
 import (
 	"encoding/gob"
+	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/common"
+	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/rpc"
 	"strconv"
 	"sync"
 	"time"
-
-	"github.com/yyyyymmmmm/Test/pkg/aria2/common"
-	"github.com/yyyyymmmmm/Test/pkg/aria2/rpc"
 )
 
 // Message 消息事件正文

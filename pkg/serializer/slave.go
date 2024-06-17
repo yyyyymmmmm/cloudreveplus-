@@ -5,7 +5,7 @@ import (
 	"encoding/gob"
 	"fmt"
 
-	model "github.com/yyyyymmmmm/Test/models"
+	model "github.com/cloudreve/Cloudreve/v3/models"
 )
 
 // RemoteDeleteRequest 远程策略删除接口请求正文

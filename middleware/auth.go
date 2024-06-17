@@ -8,19 +8,19 @@ import (
 	"io/ioutil"
 	"net/http"
 
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/oss"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/driver/upyun"
+	"github.com/cloudreve/Cloudreve/v3/pkg/mq"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/qiniu/go-sdk/v7/auth/qbox"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/oss"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/driver/upyun"
-	"github.com/yyyyymmmmm/Test/pkg/mq"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/gin-contrib/sessions"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/auth"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 const (

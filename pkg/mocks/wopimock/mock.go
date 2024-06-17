@@ -1,9 +1,9 @@
 package wopimock
 
 import (
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
 	"github.com/stretchr/testify/mock"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/wopi"
 )
 
 type WopiClientMock struct {

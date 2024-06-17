@@ -5,13 +5,13 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/cloudflare/cfssl/log"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/request"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/gofrs/uuid"
 	"net/url"
 	"strings"
-
-	"github.com/gofrs/uuid"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/request"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // LoginPage 登陆页面描述
@@ -112,16 +112,17 @@ func getUserInfoURL(openid, ak string) string {
 
 func getResponse(body string) (map[string]interface{}, error) {
 	var res map[string]interface{}
-
+	log.Infof("getResponse body1:%s", body)
 	if !strings.Contains(body, "callback") {
 		return res, nil
 	}
 
 	body = strings.TrimPrefix(body, "callback(")
-	body = strings.TrimSuffix(body, ");\n")
-
+	log.Infof("getResponse body2:%s", body)
+	body = strings.TrimSuffix(body, ");")
+	log.Infof("getResponse body3:%s", body)
 	err := json.Unmarshal([]byte(body), &res)
-
+	log.Infof("getResponse body4:%v", res)
 	return res, err
 }
 
@@ -139,19 +140,23 @@ func Callback(code string) (*UserCredentials, error) {
 	client := request.NewClient()
 	res := client.Request("GET", api, nil)
 	resp, err := res.GetResponse()
+	log.Infof("resp1 %v", resp)
 	if err != nil {
 		return nil, ErrObtainAccessToken.WithError(err)
 	}
 
 	// 如果服务端返回错误
 	errResp, err := getResponse(resp)
+	log.Infof("resp2 %v", errResp)
 	if msg, ok := errResp["error_description"]; err == nil && ok {
 		return nil, ErrObtainAccessToken.WithError(errors.New(msg.(string)))
 	}
 
 	// 获取AccessToken
 	vals, err := url.ParseQuery(resp)
+	log.Infof("resp3 %v", vals)
 	if err != nil {
+		log.Infof("resp3 err:%v", err)
 		return nil, ErrDecodeResponse.WithError(err)
 	}
 	accessToken := vals.Get("access_token")
@@ -159,12 +164,18 @@ func Callback(code string) (*UserCredentials, error) {
 	// 用 AccessToken 换取OpenID
 	res = client.Request("GET", "https://graph.qq.com/oauth2.0/me?access_token="+accessToken, nil)
 	resp, err = res.GetResponse()
+	log.Infof("resp4 %v", resp)
 	if err != nil {
+		log.Infof("resp4 err:%v", err)
 		return nil, ErrObtainOpenID.WithError(err)
 	}
 
 	// 解析服务端响应
 	errResp, err = getResponse(resp)
+	if err != nil {
+		log.Infof("resp5 err:%v", err)
+	}
+	log.Infof("resp5 :%v", errResp)
 	if msg, ok := errResp["error_description"]; err == nil && ok {
 		return nil, ErrObtainOpenID.WithError(errors.New(msg.(string)))
 	}
@@ -210,3 +221,4 @@ func GetUserInfo(credential *UserCredentials) (*UserInfo, error) {
 
 	return nil, ErrDecodeResponse
 }
+

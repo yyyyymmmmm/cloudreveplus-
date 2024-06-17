@@ -2,19 +2,19 @@ package routers
 
 import (
 	// "github.com/abslant/gzip"
+	"github.com/cloudreve/Cloudreve/v3/bootstrap"
+	"github.com/cloudreve/Cloudreve/v3/middleware"
+	"github.com/cloudreve/Cloudreve/v3/pkg/auth"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
+	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
+	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
+	wopi2 "github.com/cloudreve/Cloudreve/v3/pkg/wopi"
+	"github.com/cloudreve/Cloudreve/v3/routers/controllers"
 	"github.com/gin-contrib/cors"
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"
-	"github.com/yyyyymmmmm/Test/bootstrap"
-	"github.com/yyyyymmmmm/Test/middleware"
-	"github.com/yyyyymmmmm/Test/pkg/auth"
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/cluster"
-	"github.com/yyyyymmmmm/Test/pkg/conf"
-	"github.com/yyyyymmmmm/Test/pkg/hashid"
-	"github.com/yyyyymmmmm/Test/pkg/util"
-	wopi2 "github.com/yyyyymmmmm/Test/pkg/wopi"
-	"github.com/yyyyymmmmm/Test/routers/controllers"
 )
 
 // InitRouter 初始化路由

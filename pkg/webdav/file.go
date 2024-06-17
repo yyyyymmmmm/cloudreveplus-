@@ -12,9 +12,9 @@ import (
 	"strconv"
 	"time"
 
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/fsctx"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/fsctx"
 )
 
 // slashClean is equivalent to but slightly more efficient than

@@ -4,10 +4,10 @@ import (
 	"net/url"
 	"time"
 
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/hashid"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/gin-gonic/gin"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/hashid"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // ShareCreateService 创建新分享服务

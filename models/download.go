@@ -3,9 +3,9 @@ package model
 import (
 	"encoding/json"
 
+	"github.com/cloudreve/Cloudreve/v3/pkg/aria2/rpc"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"github.com/jinzhu/gorm"
-	"github.com/yyyyymmmmm/Test/pkg/aria2/rpc"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // Download 离线下载队列模型

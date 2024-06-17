@@ -2,8 +2,7 @@ package scripts
 
 import (
 	"context"
-
-	model "github.com/yyyyymmmmm/Test/models"
+	model "github.com/cloudreve/Cloudreve/v3/models"
 )
 
 type UpgradeToPro int

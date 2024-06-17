@@ -2,10 +2,9 @@ package googledrive
 
 import (
 	"errors"
-
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/cluster"
-	"github.com/yyyyymmmmm/Test/pkg/request"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cluster"
+	"github.com/cloudreve/Cloudreve/v3/pkg/request"
 	"google.golang.org/api/drive/v3"
 )
 

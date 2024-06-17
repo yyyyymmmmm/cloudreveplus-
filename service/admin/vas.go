@@ -1,9 +1,9 @@
 package admin
 
 import (
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
 	"github.com/gofrs/uuid"
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
 )
 
 // GenerateRedeemsService 兑换码生成服务

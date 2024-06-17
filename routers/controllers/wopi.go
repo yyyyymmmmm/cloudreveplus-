@@ -2,12 +2,11 @@ package controllers
 
 import (
 	"context"
-	"net/http"
-
+	"github.com/cloudreve/Cloudreve/v3/pkg/serializer"
+	"github.com/cloudreve/Cloudreve/v3/pkg/wopi"
+	"github.com/cloudreve/Cloudreve/v3/service/explorer"
 	"github.com/gin-gonic/gin"
-	"github.com/yyyyymmmmm/Test/pkg/serializer"
-	"github.com/yyyyymmmmm/Test/pkg/wopi"
-	"github.com/yyyyymmmmm/Test/service/explorer"
+	"net/http"
 )
 
 // CheckFileInfo Get file info

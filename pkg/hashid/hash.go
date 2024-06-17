@@ -3,8 +3,8 @@ package hashid
 import (
 	"errors"
 
+	"github.com/cloudreve/Cloudreve/v3/pkg/conf"
 	"github.com/speps/go-hashids"
-	"github.com/yyyyymmmmm/Test/pkg/conf"
 )
 
 // ID类型

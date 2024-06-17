@@ -3,16 +3,15 @@ package googledrive
 import (
 	"context"
 	"encoding/json"
+	"github.com/cloudreve/Cloudreve/v3/pkg/cache"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem/oauth"
+	"github.com/cloudreve/Cloudreve/v3/pkg/request"
+	"github.com/cloudreve/Cloudreve/v3/pkg/util"
 	"io"
 	"net/http"
 	"net/url"
 	"strings"
 	"time"
-
-	"github.com/yyyyymmmmm/Test/pkg/cache"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem/oauth"
-	"github.com/yyyyymmmmm/Test/pkg/request"
-	"github.com/yyyyymmmmm/Test/pkg/util"
 )
 
 // OAuthURL 获取OAuth认证页面URL

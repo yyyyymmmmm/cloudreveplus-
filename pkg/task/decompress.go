@@ -4,8 +4,8 @@ import (
 	"context"
 	"encoding/json"
 
-	model "github.com/yyyyymmmmm/Test/models"
-	"github.com/yyyyymmmmm/Test/pkg/filesystem"
+	model "github.com/cloudreve/Cloudreve/v3/models"
+	"github.com/cloudreve/Cloudreve/v3/pkg/filesystem"
 )
 
 // DecompressTask 文件压缩任务
